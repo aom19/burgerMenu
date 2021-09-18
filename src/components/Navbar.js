@@ -27,16 +27,24 @@ export default function Navbar() {
       </label>
       <ul className="menu">
         <li>
-          <Link to="#">Main </Link>
+          <Link to="main" smooth={true} duration={2000}>
+            Main{" "}
+          </Link>
         </li>
         <li>
-          <Link to="#">Products </Link>
+          <Link to="products" smooth={true} duration={2000}>
+            Products{" "}
+          </Link>
         </li>
         <li>
-          <Link to="#">About </Link>
+          <Link to="about" smooth={true} duration={2000}>
+            About{" "}
+          </Link>
         </li>
         <li>
-          <Link to="#">Contact </Link>
+          <Link to="contact" smooth={true} duration={2000}>
+            Contact{" "}
+          </Link>
         </li>
       </ul>
     </nav>

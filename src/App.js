@@ -5,6 +5,8 @@ import PropagateLoader from "react-spinners/PropagateLoader";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Products from "./components/Products";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 import "./App.css";
 
@@ -36,6 +38,8 @@ function App() {
           <Navbar />
           <Header />
           <Products />
+          <About />
+          <Contact />
         </>
       )}
     </div>
