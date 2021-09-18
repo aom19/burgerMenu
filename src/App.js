@@ -3,6 +3,8 @@ import { css } from "@emotion/react";
 import PropagateLoader from "react-spinners/PropagateLoader";
 
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Products from "./components/Products";
 
 import "./App.css";
 
@@ -32,6 +34,8 @@ function App() {
       ) : (
         <>
           <Navbar />
+          <Header />
+          <Products />
         </>
       )}
     </div>
