@@ -1,6 +1,7 @@
 # Burger Frontend
 
 This application is build with  `React  `.
+
 Feature: `Send email  confirmation of booking `
 
 ## Available Scripts
